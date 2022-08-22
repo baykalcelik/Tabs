@@ -1,0 +1,22 @@
+
+
+.dutyCover{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color:rgb(0, 95, 139);
+
+}
+
+.dutychevron{
+    width:2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:1rem;
+    font-size: 1.5rem;
+    color:darkcyan;
+    
+
+}

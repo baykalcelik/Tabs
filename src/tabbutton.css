@@ -1,0 +1,23 @@
+
+
+.tbBtn{
+    width:100%;
+    /* height: 2rem; */
+    background-color: transparent;
+    font-size: 1.3rem;
+    font-weight: 400;
+
+    border:none;
+    outline:none;
+    letter-spacing: 1px;
+    border-left: 2px solid transparent;
+
+    padding: 0.5rem 0rem 0.5rem 0rem;
+}
+
+.tbBtn:hover{
+    border-left: 2px solid rgb(44,174,186);
+    color:rgb(44,174,186);
+    cursor:pointer;
+    
+}

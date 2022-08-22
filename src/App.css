@@ -1,0 +1,130 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width:100%;
+  height:100vh;
+  background-color: rgb(241,245,248);
+  gap:2rem;
+
+}
+
+.bottomPart{
+  width:100%;
+  height: max-content;
+  display: flex;
+  justify-content: center;
+  /* align-items:flex-end; */
+  gap:3rem;
+
+}
+
+.panel{
+  width:12.5rem;
+  height:100%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 0.5rem;
+
+  /* background-color: aquamarine; */
+
+}
+
+.content{
+  width:65%;
+  height:100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  padding:0rem;
+  /* background-color: chartreuse; */
+
+}
+
+.header{
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  text-align: center;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+  color:rgb(35, 50, 51);
+
+}
+
+.bottomLine{
+  margin-top:0rem;
+
+  width: 5rem;
+  height: 4px;
+  background-color: rgb(44,174,186);
+  margin: 0 auto;
+
+}
+
+.title{
+  margin-top:0rem;
+
+  font-size: 1.8rem;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin-bottom: 0.5rem;
+  color:rgb(35, 50, 51);
+
+}
+
+.company{
+  margin-top:0rem;
+
+  width:fit-content;
+  font-size: 1rem;
+  font-weight: bold;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  padding: 0.3rem 0.5rem;
+  background-color: rgb(220, 224, 228);
+  color:darkslategray;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  margin-bottom: 0.5rem;
+
+
+}
+
+.dates{
+  margin-top:0rem;
+  margin-bottom: 1.5rem;
+  color:lightslategray;
+
+
+}
+
+.moreinfo{
+  margin-top:0rem;
+  width:max-content;
+  padding: 0.4rem 3rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color:white;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-size: 0.8rem;
+  font-weight: bolder;
+
+  background-color: rgb(44,174,186);
+  border:none;
+  outline:none;
+  border-radius: 5px;
+  margin: 4rem auto 0rem auto;
+
+
+
+}
+
+
+
+
+
+
+
